@@ -8,24 +8,24 @@ def write_coordinate(f,vec):
         f.write(",".join(map(lambda x:str(x), v)))
         f.write("\n")
 
-N = 100
-h = 5
+num_cells = 100
+cell_size = 5
 dt = 0.01
-diff = 0.001
-visc = 0.005
+diffusion = 0.001
+viscosity = 0.005
 force = 500.
-source = 100.
+dens_source = 100.
 
 f = open("config.csv","w")
 
-f.write(",".join(map(lambda x: str(x), [N,h,dt,diff,visc,force,source])))
+f.write(",".join(map(lambda x: str(x), [num_cells,cell_size,dt,diffusion,viscosity,force,dens_source])))
 f.write("\n")
 
-mid = (int)((N+2)/2)
+mid = (int)((num_cells+2)/2)
 # X Component
 veloc = []
-veloc.append((mid-10,mid,force/h))
-veloc.append((mid+10,mid,-force/h))
+veloc.append((mid-10,mid,force/cell_size))
+veloc.append((mid+10,mid,-force/cell_size))
 write_coordinate(f,veloc)
 
 # Y Component
@@ -33,8 +33,8 @@ veloc = []
 write_coordinate(f,veloc)
 
 # Density
-min_range = (int)((N+2)/2-10)
-max_range = (int)((N+2)/2+10)
+min_range = (int)((num_cells+2)/2-10)
+max_range = (int)((num_cells+2)/2+10)
 dens = []
 for i in range(min_range,max_range):
     for j in range(min_range,max_range):

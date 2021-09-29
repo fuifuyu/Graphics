@@ -140,7 +140,7 @@ void drawVelocity() {
 
 void init() {
 	//read config file
-	std::ifstream file("C:/Personal/Project/experiment/fluid config/config.csv");
+	std::ifstream file("../../fluid config/config.csv");
 	// Make sure the file is open
 	if (!file.is_open()) throw std::runtime_error("Could not open file");
 	std::string line, val;
