@@ -1,6 +1,10 @@
 # Table of Content
 1. [Real-time Fluid Dynamics Solver (Stam Fluid)](#real-time-fluid-dynamics-solver-stam-fluid)
     * [Instruction](#instruction)
+        * [Controls](#controls)
+        * [Fluid Configuration](#fluid-configuration)
+        * [Run](#running-from-executable)
+        
 
 # Real-time Fluid Dynamics Solver (Stam Fluid)
 Implementation of ["Real-Time Fluid Dynamics for Games"](https://www.dgp.toronto.edu/public_user/stam/reality/Research/pdf/GDC03.pdf) by Jos Stam
