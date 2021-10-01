@@ -28,8 +28,8 @@ Implementation of ["Real-Time Fluid Dynamics for Games"](https://www.dgp.toronto
 `C` - Clear
 
 ### Fluid Configuration
-To generate `config.csv`, modify and run the [script](https://github.com/hasuHasuky/GraphicsExperiment/fluid-config/createConfig.py).
+To generate `config.csv`, modify and run the [script](fluid%20config/createConfig.py).
 ### Running from executable
-Download `config.csv` `SDL2.dll` `stamFluidx64.exe` from [`Demo`](https://github.com/hasuHasuky/GraphicsExperiment/Demo) and put them in the same folder
+Download `config.csv` `SDL2.dll` `stamFluidx64.exe` from [`Demo`](Demo) or from `Release` and put them in the same folder
 ### Running from Visual Studio
 This project works with Visual Studio 2019.
