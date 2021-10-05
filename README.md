@@ -9,7 +9,7 @@
 # Real-time Fluid Dynamics Solver (Stam Fluid)
 Implementation of ["Real-Time Fluid Dynamics for Games"](https://www.dgp.toronto.edu/public_user/stam/reality/Research/pdf/GDC03.pdf) by Jos Stam
 
-![Fluid Dynamics Solver in Action](stamFluidDemo.gif)
+![Fluid Dynamics Solver in Action](Demo/stamFluidDemo.gif)
 
 ## Instruction
 ### Controls
@@ -28,8 +28,8 @@ Implementation of ["Real-Time Fluid Dynamics for Games"](https://www.dgp.toronto
 `C` - Clear
 
 ### Fluid Configuration
-To generate `config.csv`, modify and run the [script](https://github.com/hasuHasuky/GraphicsExperiment/fluid-config/createConfig.py).
+To generate `config.csv`, modify and run the [script](fluid%20config/createConfig.py).
 ### Running from executable
-Put `config.csv` `SDL2.dll` `stamFluidx64.exe` in the same folder
+Download `config.csv` `SDL2.dll` `stamFluidx64.exe` from [`Demo`](Demo) or from `Release` and put them in the same folder
 ### Running from Visual Studio
 This project works with Visual Studio 2019.
