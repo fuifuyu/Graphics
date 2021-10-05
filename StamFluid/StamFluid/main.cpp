@@ -16,7 +16,6 @@ float *u, *v, *u0, *v0;
 float *dens, *dens0;
 float dt, diff, visc;
 float force, source;
-short *boundary;
 SDL_Window *window;
 SDL_Renderer *renderer;
 int mouseX, mouseY;
@@ -163,7 +162,6 @@ void init() {
 	v0 = new float[size]();
 	dens = new float[size]();
 	dens0 = new float[size]();
-	boundary = new short[size] {0};
 	float temp[3];
 	int i = 0;
 	float *ptr = u;
@@ -196,8 +194,8 @@ int main(int argc, char *args[]) {
 	while (!quit) {
 		input(dens0, u0, v0);
 		if (!stop) {
-			velocStep(N, h, u, v, u0, v0, visc, dt, boundary);
-			densStep(N, dens, dens0, u, v, diff, dt, boundary);
+			velocStep(N, h, u, v, u0, v0, visc, dt);
+			densStep(N, dens, dens0, u, v, diff, dt);
 		}
 		if (densityMode) {
 			drawDensity();

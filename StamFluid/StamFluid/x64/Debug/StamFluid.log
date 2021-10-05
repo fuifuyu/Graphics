@@ -1,17 +1,17 @@
 ﻿  main.cpp
-C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(112,9): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(114,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(118,26): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
-C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(118,26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(118,28): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
-C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(118,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(119,40): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
-C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(119,38): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
-C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(119,36): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
-C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(130,9): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(132,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(136,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(136,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(136,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(136,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(111,9): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(113,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(117,26): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(117,26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(117,28): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(117,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(118,40): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(118,38): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(118,36): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(129,9): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(131,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(135,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(135,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(135,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Personal\Project\experiment\StamFluid\StamFluid\main.cpp(135,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   StamFluid.vcxproj -> C:\Personal\Project\experiment\StamFluid\x64\Debug\StamFluid.exe
